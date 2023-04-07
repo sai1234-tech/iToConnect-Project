@@ -1,0 +1,80 @@
+.footer {
+  overflow: hidden;
+  background: linear-gradient(180deg, #F26727 0%, #056B38 100%);
+  mix-blend-mode: multiply;
+  height: 5.555vw;
+  margin-top: 3.4vw;
+}
+
+.itoconnect_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.18vw;
+  width: 4.23611vw;
+  height: 3.19791vw;
+}
+
+.footerLogo {
+  width: 2.0833vw;
+  height: 2.0833vw;
+  margin-top: 1.9270833vw;
+}
+
+@media only screen and (min-width:280px) and (max-width:720px) {
+  .footer {
+
+    background: linear-gradient(180deg, #F26727 0%, #056B38 100%);
+    mix-blend-mode: multiply;
+    height: 5.555vw;
+    margin-top: 10vw;
+    width: 100vw;
+    height: 59.4444vw;
+  }
+
+  .itoconnect_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9.722vw;
+    width: 22vw;
+    height: 16.66vw;
+  }
+
+  .footerLogo {
+    width: 11.11vw;
+    height: 11.11vw;
+    margin-top: 1.9270833vw;
+    margin-left: 6vw;
+    top: 14vw;
+    display: flex;
+    position: relative;
+    /* position: absolute; */
+    /* margin:40px; */
+
+  }
+
+  #Logo2 {
+    position: relative;
+    left: 21vw;
+    top: 1vw;
+  }
+
+  #Logo3 {
+    position: relative;
+    left: 41vw;
+    top: -12vw;
+  }
+
+  #Logo4 {
+    position:relative;
+    left: 60vw;
+    top: -25vw;
+  }
+
+  #Logo5 {
+    position: relative;
+    left:78vw;
+    top:-38vw;
+  }
+}

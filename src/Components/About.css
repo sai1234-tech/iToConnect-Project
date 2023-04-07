@@ -1,0 +1,51 @@
+.container {
+    margin-top: 6.9vw;
+    height: 22vw;
+}
+
+.about_us {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.166vw;
+    text-align: center;
+    color: #056B38;
+}
+
+.content-aboutUs-description {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.73611vw;
+    line-height: 2vw;
+    margin-top: 2vw;
+    color: #656565;
+}
+
+@media only screen and (min-width:280px) and (max-width:600px) {
+    .container {
+        margin-top: 6.9vw;
+        height: 22vw;
+    }
+    .about_us {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9.722vw;
+        line-height:13.333vw;
+        text-align: center;
+        color: #056B38;
+    }
+    .content-aboutUs-description {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4.444vw;
+        line-height:5.2777vw;
+        text-align: center;
+        color: #656565;
+        margin-top: 2vw;
+        margin:10px;
+    }
+
+}

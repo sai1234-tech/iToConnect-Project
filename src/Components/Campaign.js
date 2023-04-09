@@ -23,7 +23,7 @@ function Campaign() {
                             Research
                         </p>
                         <p class="headingDescription">
-                            A realistic assessment with our unique methodology breaks down each <br/>campaign to ensure maximum <br/>efficiency in your constituency
+                            A realistic assessment with our unique methodology breaks down each campaign to ensure maximum efficiency in your constituency
                         </p>
                     </div>
 
@@ -33,7 +33,7 @@ function Campaign() {
                             Strategy
                         </p>
                         <p class="headingDescription">
-                                 PCC provides a unique perspective <br/> into  the electoral process, making <br/> each campaign unique and having a customized approach to ensure <br/>success               
+                                 PCC provides a unique perspective  into  the electoral process, making each campaign unique and having a customized approach to ensure success               
                           </p>
                     </div>
 
@@ -43,7 +43,7 @@ function Campaign() {
                             Connect
                         </p>
                         <p class="headingDescription">
-                        Our tailored campaigns help Connect <br/> you with target Voters by developing a <br/> persuasive message.                        </p>
+                        Our tailored campaigns help Connect  you with target Voters by developing a persuasive message.                        </p>
                     </div>
                  <div class="col-md-2"></div>
 
@@ -55,7 +55,7 @@ function Campaign() {
                             <span className="abbreviations">Profiling & Analysis of Constituency</span>
                         </p>
                         <p class="headingDescription">
-                        We use Data to get you every detail <br/>about your constituency, voters, there <br/> will be no room for error                        </p>
+                        We use Data to get you every detail about your constituency, voters, there  will be no room for error </p>
                     </div>
 
                     {/* <div class="col-md-1"></div> */}
@@ -68,7 +68,7 @@ function Campaign() {
                             <span className="abbreviations">Get-Out-To-Vote</span>
                         </p>
                         <p class="headingDescription">
-                        With our state of the art technology we <br/> provide the maximum push to voters to <br/>come out and vote                        </p>
+                        With our state of the art technology we  provide the maximum push to voters to come out and vote  </p>
                     </div>
 
                 </div>

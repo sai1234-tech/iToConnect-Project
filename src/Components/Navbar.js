@@ -33,37 +33,6 @@ function Navbar() {
 
 
 
-      {/* <nav class="navbar navbar-expand-lg navbar-light mt-0">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img className="logo"src={EmsLogo}/>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" onClick={handleToggleclicked}>
-      <span class="navbar-toggler-icon" ></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
-      <li class="nav-item" id="nav_menu">
-          <a class="nav-link" id="nav_link" href="#">Feature</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav_link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav_link" href="#">Contact us</a>
-        </li>
-        <li class="nav-item" id="request">
-          
-          <a class="nav-link" id="nav_lin" href="#">Request a Demo
-          </a>
-        </li>
-   
-      </ul>
-    
-    </div>
-  </div>
-</nav> */}
 
       <nav>
         <input type="checkbox" id="check" />
@@ -74,7 +43,6 @@ function Navbar() {
         <img src={EmsLogo}/>
           </div>
         <ul>
-          {/* <li><a className="active" href="#">Home</a></li> */}
            <li><a href="#" className="scroll">Features</a></li>
            <li><a href="#" className="scroll">About</a></li>
            <li><a href="#" className="scroll">Contact us</a></li>
@@ -116,9 +84,7 @@ function Navbar() {
            
         </ul>
       </nav>
-      {/* <section>
-        
-      </section> */}
+   
     </>
   )
 }

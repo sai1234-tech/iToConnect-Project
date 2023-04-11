@@ -364,7 +364,8 @@ input[type="text"]{
    }
 
 /* @media (max-width:858px){ */
-    @media screen and (min-width:280px) and (max-width:600px){
+    
+@media screen and (max-width:540px){
 
       
     nav{
@@ -409,5 +410,172 @@ input[type="text"]{
  #check:checked ~ ul {
     left:0;
 
+ }
+ .modal-fade{
+    border-radius: 30px;
+    background-color: red;
+ }
+
+
+ .modal-dialog{
+  border-radius: 20px;
+ }
+ .f_n{
+    display: flex;
+    position: relative;
+ }
+ .fn{
+    margin-top: -33.8px;;
+ }
+ input[type="text"]{
+    width:470px;
+    height:35px;
+ }
+ #submit{
+    width:470px;
+
+ }
+}
+    @media screen and (min-width:360px) and (max-width:500px){
+
+      
+    nav{
+        height:16.66vw;
+        width:100%;
+    }
+    .logo img{
+        margin-left:8.99vw;
+        margin-top:3.5vw;
+        width: 10.9833vw;
+        height: 8.291vw;
+      
+    }
+ .checkbtn{
+    display: block;
+ }
+ ul{
+    position: fixed;
+    width:100%;
+    height:31vh;
+    background:#2c3e50;
+    top:21vw;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+ }
+ nav ul li{
+    display: block;
+    margin:10px 0;
+    line-height: 40px;
+ }
+ nav ul li a{
+    font-size:5vw;
+ }
+ nav ul li .scroll.request{
+    font-size: 4vw;
+ }
+
+.request{
+  font-size: 4vw;
+}
+ #check:checked ~ ul {
+    left:0;
+
+ }
+ .modal-fade{
+    border-radius: 30px;
+    background-color: red;
+ }
+
+
+ .modal-dialog{
+  border-radius: 20px;
+ }
+ .f_n{
+    display: flex;
+    position: relative;
+ }
+ .fn{
+    margin-top: -33.8px;;
+ }
+ input[type="text"]{
+    width:320px;
+    height:35px;
+ }
+ #submit{
+    width:330px;
+ }
+
+}
+
+
+@media screen and (max-width:280px){
+
+      
+    nav{
+        height:16.66vw;
+        width:100%;
+    }
+    .logo img{
+        margin-left:8.99vw;
+        margin-top:3.5vw;
+        width: 10.9833vw;
+        height: 8.291vw;
+      
+    }
+ .checkbtn{
+    display: block;
+ }
+ ul{
+    position: fixed;
+    width:100%;
+    height:31vh;
+    background:#2c3e50;
+    top:21vw;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+ }
+ nav ul li{
+    display: block;
+    margin:10px 0;
+    line-height: 40px;
+ }
+ nav ul li a{
+    font-size:5vw;
+ }
+ nav ul li .scroll.request{
+    font-size: 4vw;
+ }
+
+.request{
+  font-size: 4vw;
+}
+ #check:checked ~ ul {
+    left:0;
+
+ }
+ .modal-fade{
+    border-radius: 30px;
+    background-color: red;
+ }
+
+
+ .modal-dialog{
+  border-radius: 20px;
+ }
+ .f_n{
+    display: flex;
+    position: relative;
+ }
+ .fn{
+    margin-top: -33.8px;;
+ }
+ input[type="text"]{
+    width:240px;
+    height:35px;
+ }
+ #submit{
+    width:250px;
  }
 }

@@ -67,37 +67,37 @@ function Navbar() {
 
           <div class="row">
             <div class="col-md-6">
-            <label style={{"color":"#056b38"}}>FirstName <span style={{'color':'red'}}>*</span></label>
+            <label style={{"color":"#056b38"}} className="f_n">FirstName <span style={{'color':'red'}}>*</span></label>
             <br/>
             <input type="text" className="fn"/>
             </div>
 
             <div class="col-md-6">
-            <label style={{"color":"#056b38"}}>LastName <span style={{'color':'red'}}>*</span></label>
+            <label style={{"color":"#056b38"}} className="f_n">LastName <span style={{'color':'red'}}>*</span></label>
             <br/>
             <input type="text" className="fn"/>
             </div>
 
             <div class="col-md-6">
-            <label style={{"color":"#056b38"}}>Email<span style={{'color':'red'}}>*</span></label>
+            <label style={{"color":"#056b38"}} className="f_n">Email<span style={{'color':'red'}}>*</span></label>
             <br/>
             <input type="text" className="fn"/>
             </div>
 
             <div class="col-md-6">
-            <label style={{"color":"#056b38"}}>Mobile<span style={{'color':'red'}}>*</span></label>
+            <label style={{"color":"#056b38"}} className="f_n">Mobile<span style={{'color':'red'}}>*</span></label>
             <br/>
             <input type="text" className="fn"/>
             </div>
 
             <div class="col-md-6">
-            <label style={{"color":"#056b38"}}>Constituency<span style={{'color':'red'}}>*</span></label>
+            <label style={{"color":"#056b38"}} className="f_n">Constituency<span style={{'color':'red'}}>*</span></label>
             <br/>
             <input type="text" className="fn"/>
             </div>
             
             <div class="col-md-6">
-            <label style={{"color":"#056b38"}}>Description<span style={{'color':'red'}}>*</span></label>
+            <label style={{"color":"#056b38"}} className="f_n">Description<span style={{'color':'red'}}>*</span></label>
             <br/>
             <input type="text" className="fn"/>
 

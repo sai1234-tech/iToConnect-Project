@@ -46,10 +46,11 @@ function Navbar() {
            <li><a href="#" className="scroll">Features</a></li>
            <li><a href="#" className="scroll">About</a></li>
            <li><a href="#" className="scroll">Contact us</a></li>
-           <li><a href="#" className="scroll request">
-            Request a Demo
+           <li><a href="#" className="scroll 
+            ">
+            {/* Request a Demo */}
               </a>
-           {/* <a  type="button" className="request" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a  type="button" className="request" data-bs-toggle="modal" data-bs-target="#exampleModal">
            Request a Demo
 </a>
 
@@ -58,28 +59,62 @@ function Navbar() {
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Fill Your Details</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> */}
+        <a  class="btn-close" data-bs-dismiss="modal" aria-label="" id="close"></a>
       </div>
       <div class="modal-body">
-      
+        <form>
 
           <div class="row">
             <div class="col-md-6">
-            <label>FirstName</label>
-            <input type="text"/>
+            <label style={{"color":"#056b38"}}>FirstName <span style={{'color':'red'}}>*</span></label>
+            <br/>
+            <input type="text" className="fn"/>
+            </div>
+
+            <div class="col-md-6">
+            <label style={{"color":"#056b38"}}>LastName <span style={{'color':'red'}}>*</span></label>
+            <br/>
+            <input type="text" className="fn"/>
+            </div>
+
+            <div class="col-md-6">
+            <label style={{"color":"#056b38"}}>Email<span style={{'color':'red'}}>*</span></label>
+            <br/>
+            <input type="text" cassName="fn"/>
+            </div>
+
+            <div class="col-md-6">
+            <label style={{"color":"#056b38"}}>Mobile<span style={{'color':'red'}}>*</span></label>
+            <br/>
+            <input type="text" className="fn"/>
+            </div>
+
+            <div class="col-md-6">
+            <label style={{"color":"#056b38"}}>Constituency<span style={{'color':'red'}}>*</span></label>
+            <br/>
+            <input type="text" className="fn"/>
             </div>
             
-          </div>
+            <div class="col-md-6">
+            <label style={{"color":"#056b38"}}>Description<span style={{'color':'red'}}>*</span></label>
+            <br/>
+            <input type="text" className="fn"/>
 
+						{/* <textarea id='Description' name='Description'></textarea> */}
+            </div>
+
+            <button type="btn" class="btn btn-secondary mt-3" id="submit">Submit</button>
+            
+            
+          </div>
+</form>
      
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      
     </div>
   </div>
-</div> */}
+</div> 
            </li>
            
         </ul>

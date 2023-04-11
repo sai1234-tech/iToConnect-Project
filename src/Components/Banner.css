@@ -35,6 +35,26 @@
     font-size: 5.55vw;
     text-align: center;
     color: #3A3A3A;
+    animation: itoconnect 1.2s linear ;
+}
+
+@keyframes itoconnect{
+  0%{
+    font-size: 0vw;
+   
+  }
+  50%{
+    font-size: 5.55vw;
+   
+  }
+  70%{
+    font-size: 3.55vw;
+   
+  }
+  100%{
+    font-size: 5.55vw;
+   
+  }
 }
 
 .strategic {
@@ -45,6 +65,25 @@
     text-align: center;
     color: #606060;
     /* margin-top:-3.5vw; */
+    animation: itoconnectsubtext 1.2s linear ;
+}
+@keyframes itoconnectsubtext{
+  0%{
+    font-size: 0vw;
+    
+  }
+  50%{
+    font-size: 2vw;
+   
+  }
+  70%{
+    font-size: 1.2vw;
+   
+  }
+  100%{
+    font-size: 2vw;
+    
+  }
 }
 
 .ban {

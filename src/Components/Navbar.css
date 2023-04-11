@@ -308,7 +308,10 @@ input[type="text"]{
 
 }
 .fn{
-    /* margin-top:-10px; */
+    display: flex;
+    position: relative;
+    top:-1vw;
+
 }
 .modal-header{
     background-color:rgb(246, 243, 243);

@@ -81,7 +81,7 @@ function Navbar() {
             <div class="col-md-6">
             <label style={{"color":"#056b38"}}>Email<span style={{'color':'red'}}>*</span></label>
             <br/>
-            <input type="text" cassName="fn"/>
+            <input type="text" className="fn"/>
             </div>
 
             <div class="col-md-6">

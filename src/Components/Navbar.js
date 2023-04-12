@@ -43,9 +43,9 @@ function Navbar() {
         <img src={EmsLogo}/>
           </div>
         <ul>
-           <li><a href="#" className="scroll">Features</a></li>
-           <li><a href="#" className="scroll">About</a></li>
-           <li><a href="#" className="scroll">Contact us</a></li>
+           <li><a href="#features" className="scroll">Features</a></li>
+           <li><a href="#about" className="scroll">About</a></li>
+           <li><a href="#contact_section" className="scroll">Contact us</a></li>
            <li><a href="#" className="scroll 
             ">
             {/* Request a Demo */}

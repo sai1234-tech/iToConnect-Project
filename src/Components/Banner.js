@@ -21,6 +21,7 @@ function Banner() {
                         <p className="strategic">Your Political Strategic Thinker</p>
                     </div>
             </div>
+         
         </>
     )
 }

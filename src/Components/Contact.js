@@ -5,7 +5,7 @@ import './Contact.css'
 
 function Contact() {
     return (
-        <div>
+        <div id="contact_section">
             <div className="Contact">
                 <div class="content-Contact">
                     <span>Contact Us</span>

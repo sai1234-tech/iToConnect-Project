@@ -9,7 +9,10 @@ import GOTV from '../Assets/gotv.png'
 function Campaign() {
     return (
         <div>
+
+  
             <div className="campaign_container-fluid">
+      
                 <p className="content-political">PCC</p>
                 <p className="content-political-description">Political Campaign Connect</p>
                 <div className="camp_pain">

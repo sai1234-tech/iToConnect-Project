@@ -8,7 +8,7 @@ import Modular from '../Assets/modular.png'
 
 function Features() {
   return (
-    <div>
+    <div id="features">
         <div className="feature_section">
               <p className="features">Features</p>
               <div class="row ">

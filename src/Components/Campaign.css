@@ -5,7 +5,29 @@
     overflow: hidden;
     margin-top: -1.7vw;
 }
-
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    /* top: 10px; */
+    background-color: #F26727;
+    font-size: 20px;
+    color: white;
+    z-index: 10;
+    width: 275px;
+    height: 30px;
+    font-family: 'Proxima Nova';
+    border-radius: 10px;
+    text-align: center;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes example {
+      /* 0%   {background-color:#F26727; left:0px; top:0px;} */
+      /* 25%  {background-color:#F26727; left:100%; top:0px;} */
+    }
+  
 .content-political {
     text-align: center;
     font-family: 'DM Serif Display';
